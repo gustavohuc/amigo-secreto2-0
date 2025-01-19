@@ -28,7 +28,7 @@ function limparLista(){
 }
 
 function sortearAmigo(){
-    if (listaNomes == null || listaNomes.length == 0){
+    if (listaNomes == null || listaNomes.length === 0){
         alert("Por favor, insira um nome")
         let resultado = document.getElementById("resultado");
         resultado.innerHTML = '';
