@@ -156,9 +156,16 @@ ul {
 .button-draw img {
     margin-right: 40px;
 }
-
 .button-draw:hover {
+    color: black;
+
     background-color: var(--color-button-hover);
+    box-shadow:
+            0 0 20px var(--color-button-hover),
+            0 0 20px #f11414,
+            0 0 50px #010205;
+
+    transition: 0.2s ease-in-out;
 }
 
 .listaAmigos{
